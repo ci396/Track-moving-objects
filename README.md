@@ -1,1 +1,1 @@
-# Projects's code by Yuqing Wu
+# Projects's code from Yuqing Wu
