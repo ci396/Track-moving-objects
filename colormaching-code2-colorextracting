@@ -39,7 +39,7 @@ ib=1;
   end
  
 
-new=reshape(new,1,bb,3);   %¾ÛÀàµÄÑù±¾
+new=reshape(new,1,bb,3);   %èšç±»çš„æ ·æœ¬
 HSV=rgb2hsv(new);
 H=HSV(:,:,1);
 S=HSV(:,:,2);
@@ -57,14 +57,14 @@ hold on
 grid on
 title('H & S distribution of the picture ');
 
-%% %%%%%%%%%%%%%%%%%%%%%%%% ¾Û Àà %%%%%%%%%%%%%%%%%%%%%%%%%
+%% %%%%%%%%%%%%%%%%%%%%%%%% èš ç±» %%%%%%%%%%%%%%%%%%%%%%%%%
 HS=zeros(b,2);
 HS(:,1)=X;
 HS(:,2)=Y;
 K=3;
 [Idx,C,sumD,D]=kmeans(HS,K,'distance','sqEuclidean','Replicates',10);
 
-%%          »»Ë³Ðò  %%%%%%%%%%%%%%%%%%%%%
+%%          æ¢é¡ºåº  %%%%%%%%%%%%%%%%%%%%%
 dis1=C(1,1)^2+C(1,2)^2;
 dis2=C(2,1)^2+C(2,2)^2;
 dis3=C(3,1)^2+C(3,2)^2;
@@ -145,7 +145,7 @@ elseif (dis1>=dis2) && (dis2>=dis3) && (dis3<=dis1)
         end
 end
 
-%% %%%%%%%%%%%%%%%%%%%% »­¾ÛÀàºóµÄÉ¢µãÍ¼ %%%%%%%%%%%%%%%%%%%
+%% %%%%%%%%%%%%%%%%%%%% ç”»èšç±»åŽçš„æ•£ç‚¹å›¾ %%%%%%%%%%%%%%%%%%%
 
 
 plot(HS(Idx==1,1),HS(Idx==1,2),'r.')
@@ -162,7 +162,7 @@ plot(C(:,1),C(:,2),'kx','MarkerSize',14,'LineWidth',4)
 title('H & S original distribution ');
 
 legend('Cluster 1','Cluster 2','Cluster 3','Centroids','Location','NW')
-%%  »­Á½¸öÔ²£º
+%%  ç”»ä¸¤ä¸ªåœ†ï¼š
 alpha=0:pi/20:2*pi; 
 R=1; 
 x=R*cos(alpha);
@@ -174,7 +174,7 @@ y=R*sin(alpha);
 plot(x,y,'-')
 axis([-1.5 1.5 -1.5 1.5]);
 
-%%  ×ª»Ø¼«×ø±ê ±íÊ¾ 
+%%  è½¬å›žæžåæ ‡ è¡¨ç¤º 
 [J1,S1]=cart2pol(C(1,1),C(1,2));
  
  if J1>=0
