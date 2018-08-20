@@ -1,2 +1,1 @@
-# Track-moving-objects
-Using camera to track moving objects
+# Projects's code by Yuqing Wu
