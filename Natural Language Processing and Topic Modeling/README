@@ -1,0 +1,5 @@
+•	Developed algorithms to clustered unlabeled movies into groups and explored their latent semantic structures
+•	Processed movie description by tokenizing, stop-words removing, non-letter removing and stemming in NLTK
+•	Used TF-IDF to extract text features and trained data into 5 groups by Kmeans and LDA
+•	Identified latent keywords and topics of each document under 5 clusters and calculated document similarity
+•	Visualized results by dimensionality reduction using PCA, found the data distribution based on the clustering
