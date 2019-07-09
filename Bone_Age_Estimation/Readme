@@ -1,0 +1,5 @@
+•	Built CNN model to predict human hands’ ages by 2D X-ray images on GPU computing with 9.2 months error
+•	Improved 8% of the result by implementing image augmentation  
+•	Under transfer learning, fine-tuned InceptionV3 model from Keras as feature extractor
+•	Added gender as an important parameter by creating a parallel gender network with 32-neuron dense layer  
+•	Concatenated both outputs with 2 1024-neuron dense layer and 0.2 dropout to predict the bone age
