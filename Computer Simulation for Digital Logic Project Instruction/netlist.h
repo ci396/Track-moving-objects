@@ -29,7 +29,7 @@ class net
 {
 public:
 	string name; // e.g. "a", "s[0]" 
-	char signal; // e.g. ’0’ or ’1’ 
+	char signal; // e.g. â€™0â€™ or â€™1â€™ 
 	net(string name) : name(name) {}
 	list<pin *> connections; // relationship "connect" 
 	void append_pin(pin *p);
@@ -37,7 +37,7 @@ public:
 class pin
 {
 public:
-	char dir_; // e.g. ’I’ or ’O’ 
+	char dir_; // e.g. â€™Iâ€™ or â€™Oâ€™ 
 	gate *gate_; // relationship "contain" 
 	size_t index_; // attribute of "contain" n
 	net *net_; // relationship "connect"
