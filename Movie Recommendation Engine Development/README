@@ -1,0 +1,5 @@
+•	Designed system for movie platform to help users get personalized recommendations based on netflix data
+•	Built ETL pipeline on AWS to analyze over 100 million movie rating data and conducted OLAP
+•	Manipulated data to exclude movies without rating and draw distribution of rest movies in different genres  
+•	Based on collaborative filtering, implemented Alternative Least Square model to collected information on user’s behaviors
+•	Used hyper-param tuning and x-validation to generate the best model with 0.89 Root-Mean-Square-Error
