@@ -1,0 +1,3 @@
+- Designed and implemented an application using OpenCV to track multiple objects moving within a range of a nonrotating camera. The algorithm is based on frame difference method and color difference method
+- Applied image differencing and thresholding to create binary image from two adjacent images. Pixels with differences larger than the threshold are marked as foreground pixels and formed the contour of each motion object. Used filter to reduce the noise and smooth the frame
+- Enhanced the motion object image by using color difference method on the obtained general motion region. Converted RGB color space to HSV color space. Applied dilation and erosion to the region and used threshold for hue to separate targets
