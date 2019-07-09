@@ -1,0 +1,4 @@
+•	Performed spatial and time series analysis with over 1 million data from SFPD
+•	Designed ETL pipeline for OLAP by importing data from AWS S3 into RDD and cleaning data with SQL
+•	Utilized Kmeans to generate top 3 dangerous districts, visualized the variation of crimes over time to help travelers plan a safety route
+•	Analyzed detection rate of each crime category to help police department in better allocating resources
