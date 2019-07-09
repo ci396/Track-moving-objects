@@ -1,0 +1,4 @@
+- Designed a program for vendors in telecommunication to predict customers churn probability based on labeled data
+- Preprocessed data by data cleaning, feature transformation & selection and standardization, etc. For example, dropped useless features such as “state”, “phone number”, transformed “yes/no” feature into bool value
+- Used Cross-Validation and Grid-search to get the best model of Logistic Regression, K-NN and Random Forest
+- Evaluated each model’s performance of by Confusion Matrix and ROC curve. Top model was Random Forest with 96.3% accuracy, 96.2% precision, 75.2% recall, 90% AUC score
