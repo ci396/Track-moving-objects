@@ -1,0 +1,9 @@
+-Built a digital logic simulator using C++ programming language that simulated nontrivial digital systems. The simulator simulated digital logics specified as synchronous circuits which included four parts: Lexical Analysis, Syntactic Analysis, Netlist Constructer and Logic Simulation
+
+-Conducted lexical analysis by converting a sequence of characters into a sequence of tokens 
+
+-Conducted syntactic analysis by using FSMs as a model to specify the internal structure of the statements from tokens, as the wire and component statements are more complicated
+
+-Designed a data structure called netlist to represent the circuit for simulation and to implement a program to actually construct the netlist from the descriptions of the circuit into netlist constructer part 
+
+-Conducted logic simulation. Designed and implemented algorithms in the simulator to simulate the corresponding circuit. Used EasyVL language to simulate flip-flop-based synchronous circuits. Defined the meaning of logic simulation for the circuits specified in EasyVL based on FSM model of the circuits
