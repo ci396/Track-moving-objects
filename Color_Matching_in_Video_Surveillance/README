@@ -1,0 +1,4 @@
+- Developed an application to trace football players in the motion to analyze their physical condition by MATLAB
+− Used Homography transformation to recognize the same football player in images taken by two cameras from different views
+− Applied HSV color model, k-mean algorithm and Gaussian mixture model to complete object classification and clustering
+− Compared the Mahalanobis distance of each color in Gaussian model and distinguish the correct result
