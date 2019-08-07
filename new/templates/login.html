@@ -1,0 +1,11 @@
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        {{ error }}
+        <input type="submit" value="Log In">
+        <a href="http://127.0.0.1:8000/register/">Sign Up</a>
+        <p><a href="{% url 'password_reset' %}">Forget password?</a></p>
+    </form>
+
+</body>
